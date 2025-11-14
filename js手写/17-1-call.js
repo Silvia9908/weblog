@@ -20,7 +20,6 @@ Function.prototype.call2 = function(context){
   //4.清理临时属性
   delete cxt.fn
   return res
-  //test
-  ///啊啊啊
+
   
 }
