@@ -61,7 +61,8 @@
 			},
 			//局部过滤器
 			filters:{
-				timeFormater(value,str='YYYY年MM月DD日 HH:mm:ss'){
+				//value：使用过滤器时，管道符左侧传递过来的数据
+				timeFormater(value,str='YYYY年MM月DD日 HH:mm:ss'){//str有默认值
 					// console.log('@',value)
 					return dayjs(value).format(str)
 				}
